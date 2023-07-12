@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 40px ;
+}
+
+.cpf-gerado, .validade {
+  font-size: 2rem;
+  color: var(--primary-color-darker);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn-cpf {
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+
+.btn-cpf:hover {
+  color: white;
+  background-color: var(--primary-color) ;
+  box-sizing: 1px 1px 3px black;
+  transition: 0.4s;
+}
+
+.input-cpf {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  height: 40px;
+
+}
+
+#inputComCpf {
+  width: 70%;
+  background-color: rgb(204, 204, 204);
+  border-radius: 20px;
+  font-size: 1.6rem;
+  color: rgb(19, 19, 19);
+}
